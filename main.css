@@ -9,7 +9,7 @@ body, html{
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     height: 100%;
-    background-color: lightblue;
+    background-color: gray;
 }
 
 main{
@@ -68,8 +68,16 @@ name-section{
     border: 0;
 }
 
-.blue{
-    background-color: blue;
+.pink{
+    background-color: pink;
+}
+
+.light-blue{
+    background-color: lightblue;
+}
+
+.light-green{
+    background-color: lightgreen;
 }
 
 .red{
