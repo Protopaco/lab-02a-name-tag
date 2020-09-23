@@ -1,4 +1,11 @@
+:root{
+    --name-tag-color: #FF2D00;
+
+}
+
 body, html{
+
+
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     height: 100%;
@@ -8,7 +15,7 @@ body, html{
 main{
     width: 380px;
     height: 260px;
-    background-color: red;
+    background-color: var(--name-tag-color);
     color: white;
     border-radius: 15px;
 }
@@ -47,4 +54,30 @@ name-section{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.color-selector{
+    padding: 50px;
+    display: inline;
+    align-items: space-evenly;
+
+}
+.color{
+    height: 50px;
+    width: 50px;
+    border: 0;
+
+}
+
+.blue{
+    background-color: blue;
+}
+
+.red{
+    background-color: red;
+}
+
+.body-grid{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
 }
