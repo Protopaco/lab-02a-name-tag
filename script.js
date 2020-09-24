@@ -8,8 +8,8 @@ const lightgreenbutton= document.getElementById("light-green-button");
 const lightbluebutton = document.getElementById("light-blue-button");
 const redbutton = document.getElementById("red-button");
 
-let stickercolor = document.querySelector("main");
-let buttoncolor = document.querySelector("button");
+//let stickercolor = document.querySelector("main");
+//let buttoncolor = document.querySelector("button");
 //let selectedcolor = document.querySelector("root");
 
 
