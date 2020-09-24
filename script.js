@@ -10,6 +10,7 @@ const redbutton = document.getElementById("red-button");
 
 let stickercolor = document.querySelector("main");
 let buttoncolor = document.querySelector("button");
+//let selectedcolor = document.querySelector("root");
 
 
 submitbutton.addEventListener('click', () => {
@@ -18,24 +19,20 @@ submitbutton.addEventListener('click', () => {
 })
 
 pinkbutton.addEventListener('click', () =>{
-    stickercolor.style.backgroundColor='pink';
-    buttoncolor.style.backgroundColor='pink';
+    document.documentElement.style.cssText = "--selected-color: pink";
 })
 
 lightgreenbutton.addEventListener('click', () =>{
-    stickercolor.style.backgroundColor='lightgreen';
-    buttoncolor.style.backgroundColor='lightgreen';
+    document.documentElement.style.cssText = "--selected-color: lightgreen";
 
 })
 
 lightbluebutton.addEventListener('click', () =>{
-    stickercolor.style.backgroundColor='lightblue';
-    buttoncolor.style.backgroundColor='lightblue';
+    document.documentElement.style.cssText = "--selected-color: lightblue";
 
 })
 
 redbutton.addEventListener('click', () =>{
-    stickercolor.style.backgroundColor='red';
-    buttoncolor.style.backgroundColor='red';
+    document.documentElement.style.cssText = "--selected-color: red";
 
 })
